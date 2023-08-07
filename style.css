@@ -14,10 +14,10 @@
     border: 1px solid black;
     border-radius: 4px;
   }
-  @media only screen and (max-width: 400px) {
+  @media only screen and (max-width: 575px) {
     .photo {
-      width: 140px !important;
-      height: 140px !important;
+      width: 140px ;
+      height: 135px;
     }
   }
   h1 {
@@ -48,7 +48,7 @@
     font-size: 1.5rem;
     color:black
   }
-  
+  /*#region Food-Text */
   @media only screen and (max-width: 800px) {
     .food-text {
       font-size: 1.3rem;
@@ -57,9 +57,50 @@
       font-size: 1.1rem;
     }
   }
+  @media only screen and (max-width:575px) {
+    .food-text {
+      font-size: 1.1rem;
+    }
+    .price {
+      font-size: 0.9rem;
+    }
+  }
+  @media only screen and (max-width:525px) {
+    .food-text {
+      font-size: 1rem;
+    }
+    .price {
+      font-size: 0.8rem;
+    }
+  }
+  @media only screen and (max-width:450px) {
+    .food-text {
+      font-size: 0.9rem;
+    }
+    .price {
+      font-size: 0.8rem;
+    }
+  }
+  @media only screen and (max-width:425px) {
+    .food-text {
+      font-size: 0.8rem;
+    }
+    .price {
+      font-size: 0.7rem;
+    }
+  }
+  @media only screen and (max-width:425px) {
+    .food-text {
+      font-size: 0.7rem;
+    }
+    .price {
+      font-size: 0.6rem;
+    }
+  }
+  /*#endregion*/
+  
   .logo{
-    width: 50px;
-    height: 50px;
+    width: 300px;
   }
   h4 {
     color: #e00a00;

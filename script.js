@@ -82,7 +82,7 @@ const menu = [
   },
   {
     id: 10,
-    title: "Hamburguesa De Shawarma",
+    title: "Hamburguesa De  Shawarma",
     category: "Hamburguesas",
     price: 1800,
     img:
@@ -127,7 +127,7 @@ const menu = [
   },
   {
     id: 15,
-    title: "Botella De &nbsp; Vino",
+    title: "Botella De Vino",
     category: "Bebidas",
     price: 2000,
     img:
