@@ -75,28 +75,13 @@
   }
   @media only screen and (max-width:450px) {
     .food-text {
-      font-size: 0.9rem;
+      font-size: 0.880rem;
     }
     .price {
-      font-size: 0.8rem;
+      font-size: 0.880rem;
     }
   }
-  @media only screen and (max-width:425px) {
-    .food-text {
-      font-size: 0.8rem;
-    }
-    .price {
-      font-size: 0.7rem;
-    }
-  }
-  @media only screen and (max-width:425px) {
-    .food-text {
-      font-size: 0.7rem;
-    }
-    .price {
-      font-size: 0.6rem;
-    }
-  }
+
   /*#endregion*/
   
   .logo{
