@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #f1f5f8;
+    font-family: "Zilla Slab", serif;
+  }
+  .photo{
+    max-width: 200px;
+    height: 100%;
+    border: 1px solid black;
+  }
+  @media only screen and (max-width: 380px) {
+    .photo {
+      width: 140px !important;
+      height: 140px !important;
+    }
+  }
+  h1 {
+    font-family: "Great Vibes", cursive;
+    font-size: 5rem;
+    text-align: center;
+    color: #5ba1a1;
+  }
+  .menu-items {
+    display: flex;
+    margin: 10px 0;
+  }
+  .menu-info {
+    margin-left: 20px;
+    width: 100%;
+  }
+  .menu-title {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+  }
+  
+  h4 {
+    color: #e00a00;
+  }
+  
+  .menu-text {
+    padding-top: 20px;
+  }
