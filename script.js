@@ -127,7 +127,7 @@ const menu = [
   },
   {
     id: 15,
-    title: "Botella De Vino",
+    title: "Botella De &nbsp; Vino",
     category: "Bebidas",
     price: 2000,
     img:
@@ -144,7 +144,7 @@ const btnList = ['All', 'Shawarma', 'Vegan', 'Hamburguesas', 'Entrantes', 'Bebid
 btnList.forEach((value) => {
   let button = document.createElement("button");
   button.innerHTML = value;
-  button.classList.add("btn", "btn-outline-dark", "btn-item", "col-sm-3", "ms-1","mt-1");
+  button.classList.add("btn", "btn-outline-dark", "btn-item", "col-sm-3", "ms-2","mt-2");
   button.setAttribute("data-id", value);
   button.addEventListener('click', buttonClick);
   btnContainerDOM.append(button);
@@ -167,7 +167,7 @@ function addMenu(showMenu) {
     menuItem.innerHTML = `<img src="${showMenu[item].img}" alt="${showMenu[item].title}" class="photo">
     <div class="menu-info">
       <div class="menu-title">
-        <h4>${showMenu[item].title}</h4>
+        <h4 class="food-text">${showMenu[item].title}</h4>
         <h4 class="price">${showMenu[item].price}$</h4>
       </div>
       <div class="menu-text">
