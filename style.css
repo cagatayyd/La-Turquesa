@@ -31,7 +31,7 @@
     margin: 10px 0;
   }
   .menu-info {
-    margin-left: 20px;
+    margin-left: 5px;
     width: 100%;
   }
   .menu-title {
@@ -48,7 +48,7 @@
     font-size: 1.5rem;
     color:black
   }
-  /*#region Food-Text */
+  /*#region Food-Menu-Text-Responsive */
   @media only screen and (max-width: 800px) {
     .food-text {
       font-size: 1.3rem;
@@ -59,37 +59,25 @@
   }
   @media only screen and (max-width:575px) {
     .food-text {
-      font-size: 1.1rem;
+      font-size: 1.300rem;
     }
     .price {
-      font-size: 0.9rem;
+      font-size: 1.150rem;
     }
   }
-  @media only screen and (max-width:525px) {
-    .food-text {
-      font-size: 1rem;
-    }
-    .price {
+  @media only screen and (max-width:575px) {
+    .menu-text {
       font-size: 0.8rem;
     }
   }
-  @media only screen and (max-width:450px) {
-    .food-text {
-      font-size: 0.880rem;
-    }
-    .price {
-      font-size: 0.880rem;
-    }
-  }
-
   /*#endregion*/
   
   .logo{
     width: 300px;
   }
-  h4 {
-    color: #e00a00;
-  }
   .menu-text {
     padding-top: 20px;
+  }
+  .footer-text{
+    color: #5ba1a1;
   }
